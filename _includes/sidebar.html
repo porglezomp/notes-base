@@ -1,0 +1,9 @@
+{% for chapter in site.chapters %}
+  {% assign chapterPages = (site.pages | where: "chapter", chapter | where: "layout", "default") %}
+  <a class="chapter" href="{{ site.url }}/chapters/chapter{{ chapter }}">Chapter {{ chapter }}</a>
+  <ul class="chapter-section">
+  {% for page in chapterPages %}
+    <li><a class="section" href="{{ site.url }}{{ page.url }}">{{ page.title }}</a></li>
+  {% endfor %}
+  </ul>
+{% endfor %}

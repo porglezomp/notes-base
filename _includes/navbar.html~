@@ -1,0 +1,4 @@
+<div id="titlebar" class="wrap">
+  <a class="title" href="{{ site.url }}">Notes for BC Calculus AP</a>
+</div>
+<hr class="titlebar">

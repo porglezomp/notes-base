@@ -1,0 +1,16 @@
+name: "Placeholder"
+description: ""
+chapters: [1]
+
+url: "http://localhost:5000"
+
+markdown: redcarpet
+permalink: pretty
+highlighter: pygments
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"
