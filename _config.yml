@@ -1,10 +1,11 @@
-name: "Placeholder"
-description: ""
-chapters: [1]
+name: "Calculus"
+description: "A site to use for my AP Calculus notes."
+chapters: [0]
 
-email: "placeholder@email.com"
-github: ""
-twitter: ""
+email: "bionicle.dragon@gmail.com"
+github: "porglezomp"
+twitter: "porglezomp"
+repo: "porglezomp.github.io/porglezomp/ap-calc"
 
 url: "//porglezomp.github.io/ap-calc"
 

@@ -95,19 +95,19 @@ hr.bottombar {
 
 #footer1 {
   float: left;
-  width: 140px;
+  width: 250px;
 }
 
 #footer2 {
   float: left;
   padding-left: 40px;
-  padding-right: 40px;
-  width: 300px;
+  width: 180px;
 }
 
 #footer3 {
   float: right;
   width: 300px;
+  padding-bottom: 20px;
 }
 
 @media all and (max-width: 800px) {
