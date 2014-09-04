@@ -2,9 +2,11 @@ name: "Placeholder"
 description: ""
 chapters: [1]
 
-# Swap comments for local testing
+email: "placeholder@email.com"
+github: ""
+twitter: ""
+
 url: "//porglezomp.github.io/ap-calc"
-# url: "//localhost:4000"
 
 markdown: redcarpet
 permalink: pretty

@@ -6,6 +6,7 @@ hr.titlebar {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
 .title {
   font-size: 26px;
   font-weight: 300;
@@ -31,16 +32,20 @@ h3, h4, h5, h6 {
   max-width: 900px;
   margin: 0 auto;
   padding: 0 30px;
+  overflow: auto;
 }
 
 .sidebar {
+  transition: 0.5s all;
   padding-top: 20px;
   float: left;
   width: 140px;
   margin-right: 30px;
+  margin-left: 0;
 }
 
 .sidebar .chapter {
+  transition: 0.5s font-size;
   font-size: 26px;
 }
 
@@ -64,7 +69,83 @@ h3, h4, h5, h6 {
 }
 
 .content {
-  float: left;
-  padding-left: 30px;
+  transition: 0.5s all;
+  position: relative;
+  margin-left: 180px;
   max-width: 650px;
+}
+
+hr.bottombar {
+  clear: both;
+}
+
+#footer {
+  color: #818181;
+}
+
+#footer .title {
+  color: #444;
+  font-size: 20px;
+  padding-bottom: 8px;
+}
+
+#footer .description {
+  font-weight: 200px;
+}
+
+#footer1 {
+  float: left;
+  width: 140px;
+}
+
+#footer2 {
+  float: left;
+  padding-left: 40px;
+  padding-right: 40px;
+  width: 300px;
+}
+
+#footer3 {
+  float: right;
+  width: 300px;
+}
+
+@media all and (max-width: 800px) {
+  #footer2 {
+    clear: right;
+    float: right;
+  }
+  #footer3 {
+    margin-top: 60px;
+    float: none;
+  }
+}
+
+@media all and (max-width: 700px) {
+  .sidebar {
+    width: 100px;
+    margin-right: 10px;
+    margin-left: -20px;
+  }
+  .sidebar .chapter {
+    font-size: 22px;
+  }
+  .content {
+    margin-left: 110px;
+    margin-right: -10px;
+  }
+
+}
+
+@media all and (max-width: 500px) {
+  #footer1 {
+    float: none;
+  }
+  #footer2, #footer3 {
+    float: none;
+    padding-left: 0;
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px dashed #ccc;
+  }
 }

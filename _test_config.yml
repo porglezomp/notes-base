@@ -2,6 +2,10 @@ name: "Placeholder"
 description: ""
 chapters: [1]
 
+email: "placeholder@email.com"
+github: ""
+twitter: ""
+
 url: "http://localhost:5000"
 
 markdown: redcarpet
