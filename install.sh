@@ -82,8 +82,8 @@ then
     cp "$ltest_config" "$test_config"
 fi
 
-cp "./test.sh ../test.sh"
+cp "test.sh" "../test.sh"
 if [ ! -e "../Gemfile" ]
 then
-    cp "./Gemfile ../Gemfile"
+    cp "./Gemfile" "../Gemfile"
 fi
