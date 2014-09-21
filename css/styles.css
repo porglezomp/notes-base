@@ -148,4 +148,22 @@ hr.bottombar {
     padding-top: 10px;
     border-top: 1px dashed #ccc;
   }
+
+  .sidebar {
+    width: 70px;
+    margin-right: 5px;
+  }
+  .sidebar .chapter {
+    font-size: 14px;
+  }
+  .sidebar ul.chapter-section {
+    list-style: none;
+    padding-left: 10px;
+  }
+  .sidebar ul.chapter-section .section {
+    font-size: 10px;
+  }
+  .content {
+    margin-left: 70px;
+  }
 }

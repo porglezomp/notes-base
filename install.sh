@@ -11,7 +11,7 @@ css="../css"
 cssitems="styles.css"
 lchapter="./chapters"
 chapter="../chapters"
-chapters="chapter1.md chapter1"
+chapters="chapter0.md"
 config="../_config.yml"
 lconfig="./_config.yml"
 test_config="../_test_config.yml"
@@ -64,12 +64,12 @@ done
 
 if [ ! -e "$chapter/chapter1.md" ]
 then
-    cp "$lchapter/chapter1.md" "$chapter/chapter1.md"
+    cp "$lchapter/chapter0.md" "$chapter/chapter0.md"
 fi
 
-if [ ! -d "$chapter/chapter1" ]
+if [ ! -d "$chapter/chapter0" ]
 then
-    mkdir "$chapter/chapter1"
+    mkdir "$chapter/chapter0"
 fi
 
 if [ ! -e "$config" ]
@@ -82,8 +82,8 @@ then
     cp "$ltest_config" "$test_config"
 fi
 
-cp "./test.sh ../test.sh"
+cp "test.sh" "../test.sh"
 if [ ! -e "../Gemfile" ]
 then
-    cp "./Gemfile ../Gemfile"
+    cp "./Gemfile" "../Gemfile"
 fi
